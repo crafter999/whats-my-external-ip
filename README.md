@@ -1,6 +1,6 @@
 # whats-my-ip
 
-A CLI tool to get your public IP address using the following services:
+A CLI tool to get your public IP address with **0 dependencies** using the following services:
 - https://checkip.amazonaws.com
 - https://api.ipify.org
 - https://ipinfo.io/ip
