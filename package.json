@@ -1,6 +1,6 @@
 {
   "name": "whats-my-external-ip",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "dist/src/get-ip.js",
   "types": "dist/src/get-ip.d.ts",
