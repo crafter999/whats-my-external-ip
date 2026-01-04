@@ -9,9 +9,7 @@ export async function getPublicIP(services: string[]): Promise<string> {
          const textIpAddress = (await response.text()).trim();
          return textIpAddress;
       } catch (err) {
-         const message =
-            err instanceof Error ? err.message : String(err);
-         console.warn(`Failed to fetch IP from ${url}:`, message);
+         continue;
       } finally {
          clearTimeout(timeoutId);
       }
