@@ -23,4 +23,14 @@ describe("get-ip", () => {
          throw new Error("Invalid IP")
       }
    })
+
+   it("check multiple services", async () => {
+      const ip = await getPublicIP([
+         "https://e5cdeffc3df937d2039516a4b53c1.com",
+         "https://checkip.amazonaws.com",
+      ])
+      if (!isValidIP(ip)) {
+         throw new Error("Invalid IP")
+      }
+   })
 })
