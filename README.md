@@ -1,4 +1,4 @@
-# whats-my-ip
+# whats-my-external-ip
 
 A CLI tool to get your public IP address with **0 dependencies** using the following services:
 - https://checkip.amazonaws.com
