@@ -8,11 +8,11 @@ A CLI tool to get your public IP address using the following services:
 ## Installation
 
 ```bash
-npm install -g whats-my-ip
+npm install -g whats-my-external-ip
 ```
 
 ## Usage
 
 ```bash
-whats-my-ip # returns your public IP address
+whats-my-external-ip # returns your public IP address
 ```

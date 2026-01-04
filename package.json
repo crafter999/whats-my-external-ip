@@ -1,11 +1,11 @@
 {
-  "name": "whats-my-ip",
-  "version": "0.1.3",
+  "name": "whats-my-external-ip",
+  "version": "0.1.4",
   "description": "",
   "main": "dist/src/get-ip.js",
   "types": "dist/src/get-ip.d.ts",
   "bin": {
-    "whats-my-ip": "dist/src/cli.js"
+    "whats-my-external-ip": "dist/src/cli.js"
   },
   "scripts": {
     "build": "tsc",
@@ -14,13 +14,13 @@
   "keywords": [
     "ip",
     "public-ip",
-    "whats-my-ip",
+    "whats-my-external-ip",
     "external-ip"
   ],
-  "homepage": "https://github.com/crafter999/whats-my-ip#readme",
+  "homepage": "https://github.com/crafter999/whats-my-external-ip#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crafter999/whats-my-ip.git"
+    "url": "git+https://github.com/crafter999/whats-my-external-ip.git"
   },
   "author": "crafter999",
   "license": "MIT",
