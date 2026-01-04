@@ -10,4 +10,7 @@ import { getPublicIP } from "./get-ip";
     ];
     const ip = await getPublicIP(services);
     console.log(ip);
-})()
+})().catch((e) => {
+    console.error(e);
+    process.exit(1);
+})

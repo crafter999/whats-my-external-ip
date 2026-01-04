@@ -8,8 +8,8 @@ export async function getPublicIP(services: string[]): Promise<string> {
          if (!response.ok) continue;
          const textIpAddress = (await response.text()).trim();
          return textIpAddress;
-      } catch (err) {
-         continue;
+      } catch {
+         // dot not log anything
       } finally {
          clearTimeout(timeoutId);
       }
